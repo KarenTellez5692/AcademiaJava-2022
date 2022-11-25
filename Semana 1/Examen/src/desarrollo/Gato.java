@@ -2,6 +2,7 @@ package desarrollo;
 
 public class Gato extends Animal {
 
+	//* Cree el  costructor de la clase gato 
 	public Gato(String nombre) {
 		super(nombre);
 		System.out.println("Constructor Gato, nombre : " + nombre);

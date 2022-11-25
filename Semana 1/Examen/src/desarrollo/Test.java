@@ -12,13 +12,15 @@ public class Test {
 
 		/** Cree un objeto perro, un objeto Perro de tipo Perro */
 		Perro perro = new Perro("Ragnar");
+		/* ejecuto metodo Tipo animal */
 		perro.tipoAnimal();
 		System.out.println();
 
 		/**
 		 * Cree un objeto animalPolimorfico, un objeto perro de tipo Animal asignando
-		 * una referencia ya existente
+		 * una referencia ya existente Estoy Instanciado el objeto animal creado arriba
 		 */
+
 		Animal animalPolimorfico = perro;
 		animalPolimorfico.tipoAnimal();
 		System.out.println();
@@ -31,11 +33,11 @@ public class Test {
 
 		/**
 		 * Cree un objeto cat, un objeto Gato de tipo Animals Para esto aplique el
-		 * polimorfismo usando la Interface
+		 * polimorfismo usando la Interface Objeto gato en base a la interfaz, no
+		 * ejecuta el metodo de la clase abstracta
 		 */
 		IAnimals cat = new Gato("Manchas");
 		cat.comunicarse();
-
 
 		/** Cree un objeto Vaca, un objeto Vaca de tipo Animal */
 		Animal vac = new Vaca("Lola");

@@ -14,7 +14,7 @@ public abstract class Animal implements IAnimals {
 	}
 
 	/**
-	 * Retorna el valor de nombre
+	 * Metodo que Retorna el valor de nombre
 	 * 
 	 */
 	public String getNombre() {
