@@ -30,13 +30,13 @@ https://github.com/KarenTellez5692/AcademiaJava-2022/tree/main/Semana%202/Examen
 4.Implementacion de codigo
 https://github.com/KarenTellez5692/AcademiaJava-2022/tree/main/Semana%202/Examen/Lambdas%20V5/src
 
-  En base a Version 5 vista en clase  
+        En base a Version 5 vista en clase  
   
  5.Implementacion de codigo
  https://github.com/KarenTellez5692/AcademiaJava-2022/tree/main/Semana%202/Examen/LambdasV3/src/lambdas2
         
 
-En base a Version 3 vista en clase 
+        En base a Version 3 vista en clase 
         
         
         
