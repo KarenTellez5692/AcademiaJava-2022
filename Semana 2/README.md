@@ -27,6 +27,10 @@ https://github.com/KarenTellez5692/AcademiaJava-2022/tree/main/Semana%202/Examen
 
         Uso de la Palabra Final 
         
+4.Implementacion de codigo
+https://github.com/KarenTellez5692/AcademiaJava-2022/tree/main/Semana%202/Examen/Lambdas%20V5/src
+
+  En base a Version 5 vista en clase  
         
         
         
