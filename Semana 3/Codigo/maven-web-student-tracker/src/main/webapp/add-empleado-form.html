@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Add Empleado</title>
+
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link type="text/css" rel="stylesheet" href="css/add-student-style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<h2>Empleados Xideral</h2>
+		</div>
+	</div>
+	
+	<div class="container mt-3">
+		<h3>Agregar Empleado</h3>
+		
+		<form action="EmpleadoControllerServlet" method="GET">
+		
+			<input type="hidden" name="command" value="ADD" />
+			
+			<div class="mb-3 mt-3">
+			  <label for="nameEmpleado">Nombre</label>
+			  <input type="text" class="form-control" id="nameEmpleado" name="firstName" placeholder="Ingrese el nombre del empleado">
+			</div>
+			
+			<div class="mb-3">
+			  <label for="lastnameEmpleado">Apellido</label>
+			  <input type="text" class="form-control" id="lastnameEmpleado" name="lastName" placeholder="Ingrese el apellido del empleado">
+			</div>
+			
+			<div class="mb-3">
+			  <label for="emailEmpleado">Email</label>
+			  <input type="tel" class="form-control" id="emailEmpleado" name="email"  placeholder="Ingrese el email del empleado">
+			</div>
+			
+			<div class="mb-3">
+			  <label for="areaEmpleado">Area</label>
+			  <input type="text" class="form-control" id="areaEmpleado" name="area" placeholder="Ingrese el area del empleado">
+			</div>
+			
+			<button type="submit" class="btn btn-primary btn-guardar">Guardar</button>
+		</form>
+		
+		<div style="clear: both;"></div>
+		
+		<p>
+			<a href="EmpleadoControllerServlet">Regresar a la lista</a>
+		</p>
+	</div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
